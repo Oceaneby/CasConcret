@@ -7,7 +7,7 @@ if(!isset($_SESSION['username'])){
     header("Location: connexion.php");
     exit();
 } 
-
+// On récupère le nom d'utilisateur depuis la session 
 $username = $_SESSION['username'];
 
 
@@ -22,9 +22,10 @@ $username = $_SESSION['username'];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cas Concret</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Bienvenue sur votre page d'accueil <?php echo htmlspecialchars($username); ?> </h1>
+<h1>Bienvenue sur votre page d'accueil <?php echo htmlspecialchars($username); ?> !</h1>
 <a href="deconnexion.php">Déconnexion</a>
 </body>
 </html>

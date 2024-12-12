@@ -1,0 +1,31 @@
+h1{
+    color: #54072e;
+    text-align: center;
+    position: relative;
+}
+form{
+    position: absolute;
+    left: 400px;
+    width: 50%;
+    height: 500px;
+    background: url(./ai-generated-8491227_1280.jpg) fixed center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+input{
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+}
+.btn{
+    width: 100px;
+}
+svg{
+    width: 100px;
+    padding-bottom: 50px;
+    fill: #b48da1;
+}
